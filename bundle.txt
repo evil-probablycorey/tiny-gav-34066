@@ -25,4 +25,4 @@ const colors = ["AliceBlue","AntiqueWhite","Aqua","Aquamarine","Azure","Beige","
 button.addEventListener('click', event => {
   const index = Math.floor(Math.random() * colors.length)
   document.body.style.background = colors[index]
-}
+})
